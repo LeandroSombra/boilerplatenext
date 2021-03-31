@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
                 <title>React avaçado - bolierplate</title>
                 <link rel="shortcut icon" href="/img/iconfinder_React.png" />
                 <link rel="apple-touch-icon" href="/img/iconfinder_React.png" />
+                <link rel="manifest" href="/manifest.json" />
                 <meta name="description" content="Simples projeto" />
             </Head>
             <GlobalStyles />
