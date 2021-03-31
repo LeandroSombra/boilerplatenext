@@ -1,11 +1,12 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+    title = 'React Avançado II',
+    description = 'Typescript, ReactJS, NexJS e Styled Components'
+}) => (
     <S.Warpper>
-        <S.Title>React Avançado</S.Title>
-        <S.Description>
-            Typescript, ReactJS, NexJS e Styled Components
-        </S.Description>
+        <S.Title>{title}</S.Title>
+        <S.Description>{description}</S.Description>
     </S.Warpper>
 )
 
